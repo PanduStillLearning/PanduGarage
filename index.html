@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pandu Garage</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.7.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tms-0.4.1.js"></script>
+<script>
+$(document).ready(function () {
+    $('.slider')._TMS({
+        show: 0,
+        pauseOnHover: true,
+        prevBu: '.prev',
+        nextBu: '.next',
+        playBu: false,
+        duration: 500,
+        preset: 'fade',
+        pagination: true, //'.pagination',true,'<ul></ul>'
+        pagNums: false,
+        slideshow: 8000,
+        numStatus: false,
+        banners: 'fromBottom', // fromLeft, fromRight, fromTop, fromBottom
+        waitBannerAnimation: false,
+        progressBar: false
+    })
+})
+$(function () {
+    if ($(window).width() <= 1066) {
+        $("#slider .prev").css("left", "55px")
+        $("#slider .next").css("right", "55px")
+    }
+})
+</script>
+<!--[if lt IE 9]>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/html5.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<div class="bg">
+  <header>
+    <div class="main wrap">
+      <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+      <p>Pandu Prasetyo <span>0821-2293-1182 </span></p>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li class="current"><a href="index.html" class="home"><img src="images/home.jpg" alt=""></a></li>
+        <li><a href="Tentang.html">Tentang</a></li>
+        <li><a href="Pemeliharaan.html">Pemeliharaan</a></li>
+        <li><a href="Servis.html">Servis</a></li>
+        <li><a href="List-Harga.html">List Harga</a></li>
+        <li><a href="Lokasi.html">Lokasi</a></li>
+      </ul>
+      <div class="clear"></div>
+    </nav>
+  </header>
+  <div id="slider">
+    <div class="slider-block">
+      <div class="slider">
+        <ul class="items">
+          <li><img src="images/slide-1.jpg" alt="">
+            <div class="banner">
+              <div><span>Motor</span><strong>Transmisi Otomatis</strong>
+                <p>Saat ini dinekal dengan CVT. Menggunakan sistem yang tidak memiliki gigi tetap. Transmisi ini secara terus-menerus memvariasikan rasio gigi secara kontinu untuk mengoptimalkan efisiensi dan kinerja mesin dalam berbagai kecepatan. Motor dengan transmisi ini umumnya memiliki akselerasi yang halus dan konsumsi bahan bakar yang lebih efisien.</p>
+            </div>
+          </li>
+          <li><img src="images/slide-2.jpg" alt="">
+            <div class="banner">
+              <div><span>Motor</span><strong>Transmisi Semi-Otomatis</strong>
+                <p>Dikenal sebagai motor bertransmisi manual dengan kopling otomatis. Motor ini menggunakan sistem semi-otomatis di mana pengemudi masih harus memindahkan tuas gigi, tetapi kopling bekerja secara otomatis. Ini memberikan kemudahan penggunaan yang lebih tinggi daripada transmisi manual tradisional.</p>
+            </div>
+          </li>
+          <li><img src="images/slide-3.jpg" alt="">
+            <div class="banner">
+              <div><span>Motor</span><strong>Transmisi Manual</strong>
+                <p>Memiliki transmisi manual di mana pengemudi harus secara manual mengoperasikan kopling dan mengganti gigi dengan menggunakan tuas gigi. Transmisi manual memberikan kontrol yang lebih langsung dan fleksibilitas dalam mengubah gigi, tetapi membutuhkan keterampilan mengemudi yang lebih tinggi.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <a href="#" class="prev"></a> <a href="#" class="next"></a> </div>
+  </div>
+  <section id="content">
+    <div class="block-1 box-1">
+      <div> <img src="images/page1-img1.jpg" alt="">
+        <p class="text-1">Jadwal <strong>Servis</strong></p>
+        <p class="upper">Info lebih lanjut mengenai jadwal servis selengkapnya dapat anda lihat disini.</p>
+        <a href="Tentang.html" class="button">Selengkapnya</a> </div>
+      <div> <img src="images/page1-img2.jpg" alt="">
+        <p class="text-1">Pencegahan <strong>pemeliharaan</strong></p>
+        <p class="upper">Kunci untuk menjaga kinerja, performa, dan umur panjang kendaraan Anda.</p>
+        <a href="Pemeliharaan.html" class="button">Selengkapnya</a> </div>
+      <div> <img src="images/page1-img3.jpg" alt="">
+        <p class="text-1">Servis <strong>Perbaikan</strong></p>
+        <p class="upper">Menjaga kondisi optimal kendaraan Anda dan mengatasi masalah yang mungkin timbul.</p>
+        <a href="Servis.html" class="button">Selengkapnya</a> </div>
+      <div class="last"> <img src="images/page1-img4.jpg" alt="">
+        <p class="text-1">Tune-up <strong>performa</strong></p>
+        <p class="upper">penyesuaian dan perbaikan untuk meningkatkan kinerja mesin pada motor Anda.</p>
+        <a href="List-Harga.html" class="button">Selengkapnya</a> </div>
+    </div>
+    <div class="block-2 wrap pad-2">
+      <div class="box-2">
+        <h2 class="clr-1">Ulasan Pelanggan</h2>
+        <div class="comments">
+          <div> “ Pelayanan sangat memuaskan. Pengerjaan rapih dan cepat. Sangat recommended. ”
+            <div class="comments-corner"></div>
+          </div>
+          <a href="#">Han Lue</a> </div>
+        <div class="comments">
+          <div> “ Mantap. Setelah servis disini motor saya jadi nyaman kembali. Harga sparepart sangat terjangkau. ”
+            <div class="comments-corner"></div>
+          </div>
+          <a href="#">Dominic Toretto</a> </div>
+      </div>
+      <div class="box-3">
+        <h2 class="clr-1">Pelayanan Kami</h2>
+        <div class="wrap">
+          <ul class="list-1">
+            <li><a href="#">Servis rutin</a></li>
+            <li><a href="#">Pengecekan sistem kelistrikan</a></li>
+            <li><a href="#">Perawatan sistem rem</a></li>
+            <li><a href="#">Perbaikan mesin</a></li>
+          </ul>
+          <ul class="list-1 last">
+            <li><a href="#">Perbaikan sistem suspensi</a></li>
+            <li><a href="#">Perbaikan sistem transmisi</a></li>
+            <li><a href="#">Pelayanan ban dan ban cadangan</a></li>
+            <li><a href="#">Ganti oli dan pemeriksaan berkala</a></li>
+          </ul>
+        </div>
+        <a href="Lokasi.html" class="button-2">Lakukan Servis</a> </div>
+    </div>
+  </section>
+  <footer>" Ayo servis motor kesayangan anda di bengkel kami "</a></footer>
+</div>
+</body>
+</html>

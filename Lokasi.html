@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pandu Garage | Lokasi</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.7.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<!--[if lt IE 9]>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/html5.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<div class="bg">
+  <header>
+    <div class="main wrap">
+      <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+      <p>Pandu Prasetyo <span>0821-2293-1182</span></p>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html" class="home"><img src="images/home.jpg" alt=""></a></li>
+        <li><a href="Tentang.html">Tentang</a></li>
+        <li><a href="Pemeliharaan.html">Pemeliharaan</a></li>
+        <li><a href="Servis.html">servis</a></li>
+        <li><a href="List-Harga.html">List Harga</a></li>
+        <li class="current"><a href="Lokasi.html">Lokasi</a></li>
+      </ul>
+      <div class="clear"></div>
+    </nav>
+  </header>
+  <section id="content">
+    <div class="sub-page">
+      <div class="sub-page-left box-9">
+        <h2>Form kontak</h2>
+        <form id="form" method="post" action="#">
+          <fieldset>
+            <label>
+              <input type="text" value="Nama" onBlur="if(this.value=='') this.value='Nama'" onFocus="if(this.value =='Nama' ) this.value=''">
+            </label>
+            <label>
+              <input type="text" value="Email" onBlur="if(this.value=='') this.value='Email'" onFocus="if(this.value =='Email' ) this.value=''">
+            </label>
+            <label>
+              <input type="text" value="Nomor Telepon" onBlur="if(this.value=='') this.value='Nomor Telepon'" onFocus="if(this.value =='Nomor Telepon' ) this.value=''">
+            </label>
+            <label>
+              <input type="text" value="Jenis Motor" onBlur="if(this.value=='') this.value='Jenis Motor'" onFocus="if(this.value =='Jenis Motor' ) this.value=''">
+            </label>
+            <label>
+              <textarea onBlur="if(this.value==''){this.value='Pesan'}" onFocus="if(this.value=='Pesan'){this.value=''}">Pesan</textarea>
+            </label>
+            <div class="btns"><a href="Lokasi.html" class="button">Hapus</a><a href="index.html" class="button" onClick="document.getElementById('form').submit()">Kirim</a></div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="sub-page-right">
+        <h2>Lokasi Kami</h2>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.621598826766!2d107.01435949999996!3d-6.1813739000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6989635d5dbd89%3A0x18588d4a16778c02!2sTaman%20Kavling%20Wisata%20Taman%20Asri%20Blok%20A%20Marakhas%20Square%20Pondok%20Ungu%20Permai!5e0!3m2!1sen!2sus!4v1685294769137!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <dl class="adr">
+          <dt>Pondok Ungu Permai <br>
+            Pandu Prasetyo</dt>
+          <dd>Telephone : 0821-2293-1182</dd>
+          <dd>E-mail :<br> <a href="#" class="link">panduprasetyo2403@gmail.com</a></dd>
+          <dd>Instagram :<br> <a href="#" class="link">_panduprasetyo</a></dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+  <footer>" Ayo servis motor kesayangan anda di bengkel kami "</a></footer>
+</div>
+</body>
+</html>
